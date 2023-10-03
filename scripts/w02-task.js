@@ -14,11 +14,11 @@ const profilePicture = "images/nga.png";
 
 /* Step 3 - Element Variables */
 const nameElement = document.getElementById('name');
-const foodElement = document.getElementById('food');
-const yearElement = document.querySelector('year')
-const imgElement = document.querySelector('img')
+const foodElement = document.getElementById("food");
+const yearElement = document.querySelector('year');
+const imgElement = document.querySelector('img');
 imgElement.id = 'profile';
-const imageElement = document.getElementById('profile')
+const imageElement = document.getElementById('profile');
 
 /* Step 4 - Adding Content */
 
@@ -29,5 +29,5 @@ yearElement.textContent = `${currentYear}`;
 
 /* Step 5 - Array */
 
-let foodArray = ['Pork Roast','Chop-suey','Potato Salad','Taro','Kumara',]
+let foodArray = ["Pork Roast","Chop-suey","Potato Salad","Taro","Kumara"];
 foodElement.textContent = foodArray
