@@ -7,7 +7,7 @@
 const fullName = "Nga Hirinuki";
 const currentYear = new Date().getFullYear();
 
-const profilePicture = "images/nga.png";
+const profilePicture = "images/nga.jpg";
 
 
 
@@ -24,10 +24,10 @@ const imageElement = document.getElementById('profile');
 
 nameElement.innerHTML = `<strong> ${fullName} </strong>`;
 
-imageElement.setAttribute("src" , profilePicture);
+imageElement.setAttribute("src",profilePicture);
 yearElement.textContent = `${currentYear}`;
 
 /* Step 5 - Array */
 
-let foodArray = ["Pork Roast","Chop-suey","Potato Salad","Taro","Kumara"];
-foodElement.textContent = foodArray
+let favFoods = ["Pork Roast","Chop-suey","Potato Salad","Taro","Kumara"];
+foodElement.textContent = favFoods;
