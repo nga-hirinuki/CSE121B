@@ -30,19 +30,19 @@ foodElement.innerHTML += '<br>';
 favFoods.push(' Banana');
 
 for (let i = 0; i < favFoods.length; i++) {
-foodElement.innerText += `${favFoods[i]}`;
+foodElement.innerText += `${favFoods[i]},`;
 }
 
 foodElement.innerHTML += '<br>';
 favFoods.shift();
 
 for (let i = 0; i < favFoods.length; i++) {
-foodElement.innerText += `${favFoods[i]}`;
+foodElement.innerText += `${favFoods[i]},`;
 }
 
 foodElement.innerHTML += '<br>';
 favFoods.pop();
 
 for (let i = 0; i < favFoods.length; i++) {
-foodElement.innerText += `${favFoods[i]}`;
+foodElement.innerText += `${favFoods[i]},`;
 }
