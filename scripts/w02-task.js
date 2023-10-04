@@ -24,25 +24,25 @@ imageElement.src = profilePicture;
 /* Step 5 - Array */
 
 let favFoods = ["Pork Roast "," Chop-suey "," Potato Salad ","Taro "," Kumara"];
-foodElement.textContent = favFoods;
+foodElement.innerText = favFoods;
 
 foodElement.innerHTML += '<br>';
-favFoods.push(', Banana');
+favFoods.push(' Banana');
 
 for (let i = 0; i < favFoods.length; i++) {
-foodElement.innerHTML += `${favFoods[i]}`;
+foodElement.innerText += `${favFoods[i]}`;
 }
 
 foodElement.innerHTML += '<br>';
 favFoods.shift();
 
 for (let i = 0; i < favFoods.length; i++) {
-foodElement.innerHTML += `${favFoods[i]}`;
+foodElement.innerText += `${favFoods[i]}`;
 }
 
 foodElement.innerHTML += '<br>';
 favFoods.pop();
 
 for (let i = 0; i < favFoods.length; i++) {
-foodElement.innerHTML += `${favFoods[i]}`;
+foodElement.innerText += `${favFoods[i]}`;
 }
